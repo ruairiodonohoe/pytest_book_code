@@ -6,8 +6,10 @@ authors = [
     {name = "Ruairi O'Donohoe",email = "58832267+ruairiodonohoe@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
+    "cards @ file:///home/ruairi/Documents/projects/pytest_book_code/cards_proj",
+    "pytest (>=8.4.2,<9.0.0)"
 ]
 
 
